@@ -1,8 +1,8 @@
 
-function ItemListContainer(props) {
+function ItemListContainer({ greeting }) {
     return (
         <>
-            <h1>{props.greeting}</h1>
+            <h1>{greeting}</h1>
         </>
     );
 }
